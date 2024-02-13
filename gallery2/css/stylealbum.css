@@ -1,0 +1,48 @@
+nav table{
+    width: 50%;
+    border-collapse: 5;
+    margin-bottom: 20px;
+
+}
+nav th, td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+nav th{
+    background-color: grey;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color:	#ffffff;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+  }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#000000;
+    border: 1px solid gainsboro;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a{
+    display: inline-block;
+    color:#ffffff;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+nav li a:hover {
+    opacity:0.9;
+    background-color: #3385ff;
+}
